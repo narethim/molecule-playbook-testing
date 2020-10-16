@@ -54,9 +54,9 @@ But in our case, we're using containers for testing. And lucky for you, I mainta
 
 Go ahead and exit and destroy the environment.
 
-```
-[root@instance /]# exit
-$ molecule destroy
+```sh
+  [root@instance /]# exit
+  $ molecule destroy
 ```
 
 Now edit the `platforms` in `molecule.yml`:
@@ -74,7 +74,7 @@ platforms:
 
 Now try running it again:
 
-    molecule test
+  molecule test
 
 Yay, it works!
 
